@@ -1,0 +1,330 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* CSS styling starts here*/
+
+body {
+    font-family: Arial;
+    background-color: black;
+    width: 1310px;
+    margin:auto;
+}
+
+header {
+    display: inline;
+    margin-top: 30px;
+}
+
+h1 {
+    color:#007d7b;
+    font-size: 40px;
+    font-weight: bold;
+    text-transform: uppercase;
+    float: left;
+    padding-left: 20px;
+    padding-top: 15px;
+    padding-right: 300px;
+}
+
+ul {
+    list-style-type: none;
+    display: inline-block;
+    padding-top: 25px;
+}
+
+li {
+    text-transform: uppercase;
+    float: left;
+    padding-right: 115px;
+    font-weight: bold
+}
+
+.top {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    background-color: #007d7b;
+    color: #ffffff;
+    padding: 10px;
+}
+
+.top:hover {
+    background-color:#ffffff;
+    color:#007d7b;
+}
+
+a {
+    font-size: 20px;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+a:hover {
+    color:#007d7b
+}
+
+main {
+    background-color: #ffffff;
+    margin-top: 25px;
+    padding:10px;
+}
+
+#about-pic {
+    width: 850px;
+    float: left;
+    padding-right: 10px;
+}
+
+h2.about {
+    display: inline-block;
+    text-align: right;
+    padding-left: 285px;
+    margin-bottom: 20px;
+}
+
+h2.gallery{
+    padding-top: 40px;
+    padding-bottom: 10px;
+}
+
+h2 {
+    font-size: 40px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+p.about{
+    text-align: right;
+}
+
+p.gallery {
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 20px;
+}
+
+figure {
+    display: inline-block;
+    padding: 2px;
+}
+
+#chile {
+    position: absolute;
+    top:-1;
+    left:-1;
+    padding-top: 2px;
+    padding-left: 2px;
+}
+
+#guatemala {
+    position: absolute;
+    top: -1;
+    left:-1;
+    color:white;
+    padding-top: 2px;
+    padding-left: 2px;
+}
+
+#hawaii {
+    position:absolute;
+    color: white;
+    padding-left: 300px;
+    padding-top: 250px;
+}
+
+#iran {
+    position: absolute;
+    top:-1;
+    left:-1;
+    padding-top: 2px;
+    padding-left: 2px;
+}
+
+#ireland {
+    position:absolute;
+    color: white;
+    padding-left: 290px;
+    padding-top: 600px;
+}
+
+#italy {
+    position:absolute;
+    color: white;
+    padding-left: 12px;
+    padding-top: 600px;
+}
+
+#moab {
+    position:absolute;
+    color: white;
+    padding-left: 250px;
+    padding-top: 250px;
+}
+
+#rocky {
+    position: absolute;
+    top:-1;
+    left:-1;
+    padding-top: 2px;
+    padding-left: 1px;
+}
+
+#switzerland {
+    position: absolute;
+    top:-1;
+    left:-1;
+    padding-top: 250px;
+    padding-left: 12px;
+}
+
+#moab {
+    position:absolute;
+    color: white;
+    padding-left: 250px;
+    padding-top: 250px;
+}
+
+#uk {
+    position:absolute;
+    color: white;
+    padding-left: 310px;
+    padding-top: 250px;
+}
+
+#usa {
+    position: absolute;
+    top: -1;
+    left:-1;
+    color:white;
+    padding-top: 2px;
+    padding-left: 2px;
+}
+
+#wyoming {
+    position: absolute;
+    top: -1;
+    left:-1;
+    color:white;
+    padding-top: 2px;
+    padding-left: 2px;
+}
+
+
+figcaption {
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+aside {
+    width: 850px;
+    margin: auto;
+}
+
+h2.contact {
+    color: white;
+    padding-top: 10px;
+    text-align: center;
+}
+
+p.contact {
+    color: white;
+    text-align: center;
+}
+
+form{
+    padding-top: 10px;
+}
+
+label {
+    color: #ffffff;
+    font-size: 16px;
+    text-transform: uppercase;
+    margin-top: 5px;
+}
+
+input {
+    color:#007d7b;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 16px;
+    padding: 2px;
+}
+
+input[type=text] {
+    width: 850px;
+    height: 22px;
+}
+
+input[type=submit] {
+    background-color: #007d7b;
+    color: #ffffff;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left:100px;
+    padding-right:100px;
+    border-radius: 15px;
+    margin-left: 290px;
+}
+
+footer {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+small {
+    font-size: 16px;
+    font-weight: bold;
+    color: #ffffff;
+    margin-left:508px;
+    text-transform: uppercase;
+}
